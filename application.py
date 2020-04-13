@@ -66,9 +66,5 @@ def flight(flight_id):
     return render_template("flight.html", flight=flight, passengers=passengers)
 
 if __name__ == '__main__':
-    app.run(
-    host="ec2-34-204-22-76.compute-1.amazonaws.com",
-    port=int("5432"),
-   
-)
+    app.run()
 
