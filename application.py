@@ -65,5 +65,4 @@ def flight(flight_id):
                             {"flight_id": flight_id}).fetchall()
     return render_template("flight.html", flight=flight, passengers=passengers)
 
-if __name__ == '__main__':
-    app.run()
+
