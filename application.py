@@ -65,5 +65,5 @@ def flight(flight_id):
     return render_template("flight.html", flight=flight, passengers=passengers)
 
 if __name__ == '__main__':
-    app.run()
+    main()
 
